@@ -20,18 +20,19 @@ const DatePicker: React.FC<DatePickerProps> = ({
   onChange,
   disabledDates
 }) => {
-  return ( 
-    <DateRange
-      rangeColors={['#262626']}
-      ranges={[value]}
-      date={new Date()}
-      onChange={onChange}
-      direction="vertical"
-      showDateDisplay={false}
-      minDate={new Date()}
-      disabledDates={disabledDates}
-    />
-   );
+  // return ( 
+  //   <DateRange
+  //     rangeColors={['#262626']}
+  //     ranges={[value]}
+  //     date={new Date()}
+  //     onChange={onChange}
+  //     direction="vertical"
+  //     showDateDisplay={false}
+  //     minDate={new Date()}
+  //     disabledDates={disabledDates}
+  //   />
+  //  );
+  return <></>
 }
  
 export default DatePicker;
